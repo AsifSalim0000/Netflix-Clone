@@ -1,0 +1,237 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0, 0, 0);
+}
+.header{
+    width: 100vw;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(images/backnet.jpg);
+    background-size:  cover;
+    color: white;
+    border-bottom: 8px rgb(52, 47, 47) solid;
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px 10px;
+}
+nav img{
+    width: 150px;
+    margin-left: 150px;
+}
+nav button{
+    margin-right: 150px;
+    background-color: red;
+    border: none;
+    width: auto;
+    color: white; 
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+nav .langs{
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: auto;
+    color: white;
+    border: solid;
+    font-weight: 600;
+    border-color: rgb(84, 91, 97);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    color: white;
+    align-items: center;
+    line-height: 8px;
+}
+.contents h3{
+    font-weight: bold;
+    font-size: 45px;
+}
+.contents p{
+    font-weight: normal;
+    font-size: 22px;
+}
+form input{
+    height: 40px;
+    width: 300px;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid gray;
+    padding-left: 10px;
+    background-color: #101010a8;
+}
+button{
+    height: 45px;
+    width: 150px;
+    background-color: red;
+    border: none;
+    width: auto;
+    color: white; 
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+button:hover{
+    background-color: rgba(200, 26, 26)
+}
+.netflixcomponents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    padding: 30px 30px;
+    border-bottom: 8px rgb(52, 47, 47) solid;
+}
+.netflixcomponents h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.netflixcomponents p{
+    font-weight: normal;
+    font-size: 25px;
+}
+.imgorvid{
+    position: relative;
+}
+.imgorvid video{
+    position: absolute;
+    right: 13%;
+    top: 20%;
+    z-index: -1;
+}
+.imgorvid2{
+    position: relative;
+}
+.imgorvid2 .download img{
+    width: 50px;
+}
+.imgorvid2 .download{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 1px white solid;
+    padding: 10px 5px;
+    right: 22%;
+    top: 70%;
+    width: 350px;
+    position: absolute;
+    justify-content: space-evenly;
+}
+.imgorvid2 .download .downloading{
+    color: blue;
+    font-weight: normal;
+}
+.textcl{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.imgorvid3{
+    position: relative;
+}
+.imgorvid3 video{
+    position: absolute;
+    right: 19%;
+    top: 12%;
+    width: 400px;
+    z-index: -1;
+}
+.frequentquestion{
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 8px rgb(52, 47, 47) solid;
+}
+.frequentquestion h2{
+    font-weight: bold;
+    font-size: 45px;
+    top: 50%;
+    left: 50%;
+}
+.questions{
+    margin-bottom: 40px;
+}
+.qa{
+    background-color: #2d2d2d;
+    font-weight: bold 5px;
+    font-size: 25px;
+    width: 1000px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qa:hover{
+    background-color: #414141;
+}
+.qa p::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 300px;
+}
+.subcontent{
+    font-weight: 500px;
+    font-size: 22px;
+}
+.emailform{
+    margin-bottom: 80px;
+}
+.about{
+    padding: 20px 200px;
+    color: #b3b3b3;
+}
+.aboutcontent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer a{
+    color: #b3b3b3;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer a:active{
+    color: red; 
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.lang{
+    background-color: #0f0f0f;
+    border: none;
+    width: auto;
+    color: white;
+    border: solid;
+    font-weight: 600;
+    border-color: rgb(84, 91, 97);
+    padding: 10px 20px;
+    border-radius: 3px;  
+}
+.lastlang{
+    margin-left: 200px;
+}
+.netflixc{
+    color: #b3b3b3;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    font-size: 13px;
+}
